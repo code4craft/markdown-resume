@@ -11,11 +11,12 @@
 大众点评网
 : *Java后端开发*
   __2012.7-now__
+  参与开发账户中心、商户后台，主导开发EDM邮件发送系统，目前负责主站首页和搜索页的维护和优化。
 
 点点网
 : *Java后端开发*
   __2011.6-2012.7__
-
+	参与开发文章发布模块、feed、图片上传模块，主导开发站内信、博客搬家、博客FM等功能。
 
 ------
 
@@ -34,14 +35,14 @@
 
 ### 专业技术 {#skills}
 
-* Web Design
-  : Assertively exploit wireless initiatives rather than synergistic core competencies.
+* 语言
+  : Java,Groovy,Javascript,shell> Python,lua,Ruby
 
-* Interface Design
-  : Credibly streamline mission-critical value with multifunctional functionalities.
+* 框架
+  : Spring,Spring MVC> Struts,iBatis,Freemarker,JSP
 
-* Project Direction
-  : Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
+* 工具
+  : mysql,memcached,jetty,git> redis,mongo,nginx
 
 -------
 
@@ -59,15 +60,39 @@
 
 ### Experience {#experience}
 
-Initrode Conglomerated
-: *Principal and Creative Lead*
-  __2004-2005__
-  Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
+大众点评邮件发送服务 (Java)
+: *负责系统设计及核心调度模块开发*
+  __2012.10-now__
+  对大众点评EDM系统的重构，比原项目送达率提高10%以上，高优先邮件发送延迟达到2秒以下。项目上线之后稳定运行半年，每天发送近千万邮件，未出现一次故障。
 
-Gizmonic Institute Company (GIM)
-: *Lead Web Designer*
+开源DNS服务器BlackHoleJ (Java)
+: *发起及主要贡献人*
+  __2012.11-now__
+  基于Java开发的高性能缓存DNS服务器，曾在大众点评用于测试邮件服务。支持hosts风格DNS配置，支持  DNS缓存，可反DNS污染，在单机测试达到50000qps，略优于BIND，在多家公司投入使用。
+
+开源爬虫框架webmagic (Java)
+: *发起及主要贡献人*
+  __2013.6-now__
+  参考Scrapy实现的Java垂直爬虫框架，基于HttpClient、Jsoup、HtmlCleaner及Selenium，易于扩展，支持多线程以及分布式(无须重复开发)，大大提高爬虫开发效率。
+
+BlackHoleJ管理模块Hostd (Java+Javascript)
+: *独立开发*
+  __2013.4-now__
+  BlackHoleJ的Web管理模块，基于Spring MVC+Bootstrap+jQuery。可实现根据用户IP设置不同DNS配置，是跨平台的hosts替代方案。
+  
+图片旋转验证码taijicaptcha(Java+Android)
+: *负责服务器端及图片算法*
+	使用图片扭曲和还原技术实现高安全性、使用便捷的验证码，获得大众点评hackthon一等奖。
+  
+基于nginx的短域名服务moonlink(lua)
+: *独立开发*
+  __2013.-2004__
+  基于nginx的扩展Openresty开发的高性能短域名服务，连接redis作为存储。开发机上达到9000qps。
+  
+gitlab的pages插件labpages(Ruby)
+: *独立开发*
   __2001-2004__
-  Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.
+  基于sinatra框架的开发的gitlab插件。包括响应gitlab hook以及文件的静态化服务器。
 
 ------
 
