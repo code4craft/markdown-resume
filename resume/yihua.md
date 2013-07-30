@@ -36,7 +36,7 @@
 ### 专业技术 {#skills}
 
 * 语言
-  : Java,Groovy,Javascript,shell> Python,lua,Ruby
+  : Java,Groovy,Javascript,SHELL> Python,lua,Ruby
 
 * 框架
   : Spring,Spring MVC> Struts,iBatis,Freemarker,JSP
@@ -65,7 +65,7 @@
   __2012.10-now__
   对大众点评EDM系统的重构，比原项目送达率提高10%以上，高优先邮件发送延迟达到2秒以下。项目上线之后稳定运行半年，每天发送近千万邮件，未出现一次故障。
 
-开源DNS服务器BlackHoleJ (Java)
+开源DNS服务器BlackHoleJ (Java+SHELL)
 : *发起及主要贡献人*
   __2012.11-now__
   基于Java开发的高性能缓存DNS服务器，曾在大众点评用于测试邮件服务。支持hosts风格DNS配置，支持  DNS缓存，可反DNS污染，在单机测试达到50000qps，略优于BIND，在多家公司投入使用。
@@ -74,6 +74,12 @@
 : *发起及主要贡献人*
   __2013.6-now__
   参考Scrapy实现的Java垂直爬虫框架，基于HttpClient、Jsoup、HtmlCleaner及Selenium，易于扩展，支持多线程以及分布式(无须重复开发)，大大提高爬虫开发效率。
+
+测试用的socks代理monkeysocks (Java)
+: *独立开发*
+  __2013.6-now__
+  基于jsocks修改的Java socks5代理。支持录制协议流应用层流量并回放到Java程序，从而实现无副作用、无外部依赖的测试，目前已支持HTTP，后续加入mysql、netty支持。
+
 
 BlackHoleJ管理模块Hostd (Java+Javascript)
 : *独立开发*
